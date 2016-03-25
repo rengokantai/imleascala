@@ -1,11 +1,21 @@
 ##### imleascala
-
-
+#####5
+######2 curry
+basic example:
+```
+def curry(x:Int)(y:Int) = x+y
+```
+more
+```
+def curry(x:Int)(y:Int) = x+y
+def curry2 = curry(1)
+curry3 = curry2(1) //2
 #####6
 ######1 list basic
 ```
 val a = 1::2::Nil
 val b =List(3,4,5):::a
+```
 ######5 stream
 ```
 1#::2#::3#::Stream.empty
